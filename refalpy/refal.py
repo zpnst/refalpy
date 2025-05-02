@@ -85,6 +85,7 @@ def compile_refal(ir):
         funcs[name] = compile_func(rules)
     return funcs
 
+
 def refal(imports=None, modules=None):
     def deco(f):
         rules = []
